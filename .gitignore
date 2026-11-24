@@ -1,0 +1,14 @@
+# Local state and account information never belong in the public submission.
+*.db
+*.db-*
+*.sqlite*
+*.log
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db

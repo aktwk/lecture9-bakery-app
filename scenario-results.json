@@ -1,0 +1,1435 @@
+[
+  {
+    "scenario": "No helpers",
+    "days": [
+      {
+        "day": "2026-11-23",
+        "accepted": 2,
+        "skipped": 1,
+        "picked_up": 2
+      },
+      {
+        "day": "2026-11-24",
+        "accepted": 2,
+        "skipped": 2,
+        "picked_up": 2
+      },
+      {
+        "day": "2026-11-25",
+        "accepted": 2,
+        "skipped": 3,
+        "picked_up": 2
+      },
+      {
+        "day": "2026-11-26",
+        "accepted": 2,
+        "skipped": 5,
+        "picked_up": 3
+      },
+      {
+        "day": "2026-11-27",
+        "accepted": 2,
+        "skipped": 6,
+        "picked_up": 4
+      },
+      {
+        "day": "2026-11-28",
+        "accepted": 2,
+        "skipped": 6,
+        "picked_up": 4
+      },
+      {
+        "day": "2026-11-29",
+        "accepted": 1,
+        "skipped": 6,
+        "picked_up": 3
+      }
+    ],
+    "accepted_requests": 16,
+    "incompatible_remaining": 9,
+    "sales_all_pickup_dates": 3640,
+    "helper_costs": 0,
+    "balance_before_other_costs": 3640,
+    "requests": [
+      {
+        "id": 1,
+        "customer": "Jasmine",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-25",
+        "received": "2026-11-23",
+        "body": "Name: Jasmine\nOrder: 3 Dozen Cupcakes\nPickup Date: Wed Nov 25",
+        "source": "InstagramOrders_Monday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 4.5 h left after acceptance.",
+        "order_id": 114,
+        "fetched": 1
+      },
+      {
+        "id": 2,
+        "customer": "Okafor",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-24",
+        "received": "2026-11-23",
+        "body": "Name: Okafor\nOrder: 2 Dozen Cupcakes\nPickup Date: Tue Nov 24",
+        "source": "InstagramOrders_Monday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 3,
+        "customer": "Patel",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "received": "2026-11-23",
+        "body": "Name: Patel\nOrder: 1 Cake\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Monday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 1 h left after acceptance.",
+        "order_id": 115,
+        "fetched": 1
+      },
+      {
+        "id": 4,
+        "customer": "Brown",
+        "kind": "cancel",
+        "product": null,
+        "quantity": null,
+        "pickup": "2026-11-26",
+        "received": "2026-11-24",
+        "body": "Name: Brown\nOrder: Cancel\nPickup Date: Thu Nov 26",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "accepted",
+        "reason": "Cancellation is within the notice period.",
+        "order_id": 107,
+        "fetched": 1
+      },
+      {
+        "id": 5,
+        "customer": "Reyes",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-26",
+        "received": "2026-11-24",
+        "body": "Name: Reyes\nOrder: 6 Dozen Cupcakes\nPickup Date: Thu Nov 26",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 0 h left after acceptance.",
+        "order_id": 116,
+        "fetched": 1
+      },
+      {
+        "id": 6,
+        "customer": "Tan",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-28",
+        "received": "2026-11-24",
+        "body": "Name: Tan\nOrder: 1 Cake\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 2 h left after acceptance.",
+        "order_id": 117,
+        "fetched": 1
+      },
+      {
+        "id": 7,
+        "customer": "Park",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-27",
+        "received": "2026-11-24",
+        "body": "Name: Park\nOrder: 3 Dozen Cupcakes\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 8,
+        "customer": "Moreau",
+        "kind": "change",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "received": "2026-11-25",
+        "body": "Name: Moreau\nOrder: Change to 6 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 1 h left after acceptance.",
+        "order_id": 112,
+        "fetched": 1
+      },
+      {
+        "id": 9,
+        "customer": "Singh",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-28",
+        "received": "2026-11-25",
+        "body": "Name: Singh\nOrder: 4 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 10,
+        "customer": "Kaur",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-29",
+        "received": "2026-11-25",
+        "body": "Name: Kaur\nOrder: 1 Cake\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 5 h left after acceptance.",
+        "order_id": 118,
+        "fetched": 1
+      },
+      {
+        "id": 11,
+        "customer": "Lam",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-27",
+        "received": "2026-11-25",
+        "body": "Name: Lam\nOrder: 2 Dozen Cupcakes\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 0 h left after acceptance.",
+        "order_id": 119,
+        "fetched": 1
+      },
+      {
+        "id": 12,
+        "customer": "Lam",
+        "kind": "change",
+        "product": "cupcakes",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "received": "2026-11-26",
+        "body": "Name: Lam\nOrder: Change to 1 Dozen Cupcakes\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 13,
+        "customer": "Wilson",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "received": "2026-11-26",
+        "body": "Name: Wilson\nOrder: 6 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 14,
+        "customer": "Novak",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-28",
+        "received": "2026-11-26",
+        "body": "Name: Novak\nOrder: 2 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 0 h left after acceptance.",
+        "order_id": 120,
+        "fetched": 1
+      },
+      {
+        "id": 15,
+        "customer": "Bell",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-28",
+        "received": "2026-11-26",
+        "body": "Name: Bell\nOrder: 3 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 16,
+        "customer": "Costa",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "received": "2026-11-26",
+        "body": "Name: Costa\nOrder: 2 Dozen Cupcakes\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 4 h left after acceptance.",
+        "order_id": 121,
+        "fetched": 1
+      },
+      {
+        "id": 17,
+        "customer": "Adams",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-28",
+        "received": "2026-11-27",
+        "body": "Name: Adams\nOrder: 2 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Friday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 18,
+        "customer": "Costa",
+        "kind": "cancel",
+        "product": null,
+        "quantity": null,
+        "pickup": "2026-11-29",
+        "received": "2026-11-27",
+        "body": "Name: Costa\nOrder: Cancel\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Friday.html",
+        "status": "accepted",
+        "reason": "Cancellation is within the notice period.",
+        "order_id": 121,
+        "fetched": 1
+      },
+      {
+        "id": 19,
+        "customer": "Zhou",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-29",
+        "received": "2026-11-27",
+        "body": "Name: Zhou\nOrder: 4 Dozen Cupcakes\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Friday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 3 h left after acceptance.",
+        "order_id": 122,
+        "fetched": 1
+      },
+      {
+        "id": 20,
+        "customer": "Gupta",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-30",
+        "received": "2026-11-27",
+        "body": "Name: Gupta\nOrder: 1 Cake\nPickup Date: Mon Nov 30",
+        "source": "InstagramOrders_Friday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 6 h left after acceptance.",
+        "order_id": 123,
+        "fetched": 1
+      },
+      {
+        "id": 21,
+        "customer": "Lee",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-30",
+        "received": "2026-11-28",
+        "body": "Name: Lee\nOrder: 4 Dozen Cupcakes\nPickup Date: Mon Nov 30",
+        "source": "InstagramOrders_Saturday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 4 h left after acceptance.",
+        "order_id": 124,
+        "fetched": 1
+      },
+      {
+        "id": 22,
+        "customer": "Zhou",
+        "kind": "change",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "received": "2026-11-28",
+        "body": "Name: Zhou\nOrder: Change to 2 Dozen Cupcakes\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Saturday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 23,
+        "customer": "Ito",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-12-01",
+        "received": "2026-11-28",
+        "body": "Name: Ito\nOrder: 1 Cake\nPickup Date: Tue Dec 1",
+        "source": "InstagramOrders_Saturday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 6 h left after acceptance.",
+        "order_id": 125,
+        "fetched": 1
+      },
+      {
+        "id": 24,
+        "customer": "Lee",
+        "kind": "cancel",
+        "product": null,
+        "quantity": null,
+        "pickup": "2026-11-30",
+        "received": "2026-11-29",
+        "body": "Name: Lee\nOrder: Cancel\nPickup Date: Mon Nov 30",
+        "source": "InstagramOrders_Sunday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 25,
+        "customer": "Nair",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-12-01",
+        "received": "2026-11-29",
+        "body": "Name: Nair\nOrder: 6 Dozen Cupcakes\nPickup Date: Tue Dec 1",
+        "source": "InstagramOrders_Sunday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 3 h left after acceptance.",
+        "order_id": 126,
+        "fetched": 1
+      }
+    ],
+    "orders": [
+      {
+        "id": 101,
+        "customer": "Kim",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-23",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 102,
+        "customer": "Ross",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-23",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 103,
+        "customer": "Ali",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-24",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 104,
+        "customer": "Diaz",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-24",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 105,
+        "customer": "Fox",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-25",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 114,
+        "customer": "Jasmine",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-25",
+        "status": "collected",
+        "source": "InstagramOrders_Monday.html"
+      },
+      {
+        "id": 106,
+        "customer": "Ng",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-26",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 107,
+        "customer": "Brown",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-26",
+        "status": "cancelled",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 108,
+        "customer": "Silva",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-26",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 116,
+        "customer": "Reyes",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-26",
+        "status": "collected",
+        "source": "InstagramOrders_Tuesday.html"
+      },
+      {
+        "id": 109,
+        "customer": "Wong",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 110,
+        "customer": "Chen",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 115,
+        "customer": "Patel",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "InstagramOrders_Monday.html"
+      },
+      {
+        "id": 119,
+        "customer": "Lam",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "InstagramOrders_Wednesday.html"
+      },
+      {
+        "id": 111,
+        "customer": "Haddad",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 112,
+        "customer": "Moreau",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 117,
+        "customer": "Tan",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "InstagramOrders_Tuesday.html"
+      },
+      {
+        "id": 120,
+        "customer": "Novak",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "InstagramOrders_Thursday.html"
+      },
+      {
+        "id": 113,
+        "customer": "Evans",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 118,
+        "customer": "Kaur",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-29",
+        "status": "collected",
+        "source": "InstagramOrders_Wednesday.html"
+      },
+      {
+        "id": 121,
+        "customer": "Costa",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "status": "cancelled",
+        "source": "InstagramOrders_Thursday.html"
+      },
+      {
+        "id": 122,
+        "customer": "Zhou",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-29",
+        "status": "collected",
+        "source": "InstagramOrders_Friday.html"
+      },
+      {
+        "id": 123,
+        "customer": "Gupta",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-30",
+        "status": "accepted",
+        "source": "InstagramOrders_Friday.html"
+      },
+      {
+        "id": 124,
+        "customer": "Lee",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-30",
+        "status": "accepted",
+        "source": "InstagramOrders_Saturday.html"
+      },
+      {
+        "id": 125,
+        "customer": "Ito",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-12-01",
+        "status": "accepted",
+        "source": "InstagramOrders_Saturday.html"
+      },
+      {
+        "id": 126,
+        "customer": "Nair",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-12-01",
+        "status": "accepted",
+        "source": "InstagramOrders_Sunday.html"
+      }
+    ],
+    "capacity_by_day": [
+      {
+        "day": "2026-11-23",
+        "hours": 4.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-24",
+        "hours": 5.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-25",
+        "hours": 3.5,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-26",
+        "hours": 8.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-27",
+        "hours": 8.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-28",
+        "hours": 8.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-29",
+        "hours": 5.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-30",
+        "hours": 4.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-12-01",
+        "hours": 5.0,
+        "capacity": 8.0
+      }
+    ]
+  },
+  {
+    "scenario": "Saturday helper booked Thursday",
+    "days": [
+      {
+        "day": "2026-11-23",
+        "accepted": 2,
+        "skipped": 1,
+        "picked_up": 2
+      },
+      {
+        "day": "2026-11-24",
+        "accepted": 2,
+        "skipped": 2,
+        "picked_up": 2
+      },
+      {
+        "day": "2026-11-25",
+        "accepted": 2,
+        "skipped": 3,
+        "picked_up": 2
+      },
+      {
+        "day": "2026-11-26",
+        "accepted": 3,
+        "skipped": 4,
+        "picked_up": 3
+      },
+      {
+        "day": "2026-11-27",
+        "accepted": 2,
+        "skipped": 5,
+        "picked_up": 4
+      },
+      {
+        "day": "2026-11-28",
+        "accepted": 2,
+        "skipped": 5,
+        "picked_up": 5
+      },
+      {
+        "day": "2026-11-29",
+        "accepted": 1,
+        "skipped": 5,
+        "picked_up": 3
+      }
+    ],
+    "accepted_requests": 17,
+    "incompatible_remaining": 8,
+    "sales_all_pickup_dates": 3960,
+    "helper_costs": 100,
+    "balance_before_other_costs": 3860,
+    "requests": [
+      {
+        "id": 1,
+        "customer": "Jasmine",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-25",
+        "received": "2026-11-23",
+        "body": "Name: Jasmine\nOrder: 3 Dozen Cupcakes\nPickup Date: Wed Nov 25",
+        "source": "InstagramOrders_Monday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 4.5 h left after acceptance.",
+        "order_id": 114,
+        "fetched": 1
+      },
+      {
+        "id": 2,
+        "customer": "Okafor",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-24",
+        "received": "2026-11-23",
+        "body": "Name: Okafor\nOrder: 2 Dozen Cupcakes\nPickup Date: Tue Nov 24",
+        "source": "InstagramOrders_Monday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 3,
+        "customer": "Patel",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "received": "2026-11-23",
+        "body": "Name: Patel\nOrder: 1 Cake\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Monday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 1 h left after acceptance.",
+        "order_id": 115,
+        "fetched": 1
+      },
+      {
+        "id": 4,
+        "customer": "Brown",
+        "kind": "cancel",
+        "product": null,
+        "quantity": null,
+        "pickup": "2026-11-26",
+        "received": "2026-11-24",
+        "body": "Name: Brown\nOrder: Cancel\nPickup Date: Thu Nov 26",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "accepted",
+        "reason": "Cancellation is within the notice period.",
+        "order_id": 107,
+        "fetched": 1
+      },
+      {
+        "id": 5,
+        "customer": "Reyes",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-26",
+        "received": "2026-11-24",
+        "body": "Name: Reyes\nOrder: 6 Dozen Cupcakes\nPickup Date: Thu Nov 26",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 0 h left after acceptance.",
+        "order_id": 116,
+        "fetched": 1
+      },
+      {
+        "id": 6,
+        "customer": "Tan",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-28",
+        "received": "2026-11-24",
+        "body": "Name: Tan\nOrder: 1 Cake\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 2 h left after acceptance.",
+        "order_id": 117,
+        "fetched": 1
+      },
+      {
+        "id": 7,
+        "customer": "Park",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-27",
+        "received": "2026-11-24",
+        "body": "Name: Park\nOrder: 3 Dozen Cupcakes\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Tuesday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 8,
+        "customer": "Moreau",
+        "kind": "change",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "received": "2026-11-25",
+        "body": "Name: Moreau\nOrder: Change to 6 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 1 h left after acceptance.",
+        "order_id": 112,
+        "fetched": 1
+      },
+      {
+        "id": 9,
+        "customer": "Singh",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-28",
+        "received": "2026-11-25",
+        "body": "Name: Singh\nOrder: 4 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 3 h left after acceptance.",
+        "order_id": 120,
+        "fetched": 1
+      },
+      {
+        "id": 10,
+        "customer": "Kaur",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-29",
+        "received": "2026-11-25",
+        "body": "Name: Kaur\nOrder: 1 Cake\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 5 h left after acceptance.",
+        "order_id": 118,
+        "fetched": 1
+      },
+      {
+        "id": 11,
+        "customer": "Lam",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-27",
+        "received": "2026-11-25",
+        "body": "Name: Lam\nOrder: 2 Dozen Cupcakes\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Wednesday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 0 h left after acceptance.",
+        "order_id": 119,
+        "fetched": 1
+      },
+      {
+        "id": 12,
+        "customer": "Lam",
+        "kind": "change",
+        "product": "cupcakes",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "received": "2026-11-26",
+        "body": "Name: Lam\nOrder: Change to 1 Dozen Cupcakes\nPickup Date: Fri Nov 27",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 13,
+        "customer": "Wilson",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "received": "2026-11-26",
+        "body": "Name: Wilson\nOrder: 6 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 0 h left after acceptance.",
+        "order_id": 121,
+        "fetched": 1
+      },
+      {
+        "id": 14,
+        "customer": "Novak",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-28",
+        "received": "2026-11-26",
+        "body": "Name: Novak\nOrder: 2 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 15,
+        "customer": "Bell",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-28",
+        "received": "2026-11-26",
+        "body": "Name: Bell\nOrder: 3 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 16,
+        "customer": "Costa",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "received": "2026-11-26",
+        "body": "Name: Costa\nOrder: 2 Dozen Cupcakes\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Thursday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 4 h left after acceptance.",
+        "order_id": 122,
+        "fetched": 1
+      },
+      {
+        "id": 17,
+        "customer": "Adams",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-28",
+        "received": "2026-11-27",
+        "body": "Name: Adams\nOrder: 2 Dozen Cupcakes\nPickup Date: Sat Nov 28",
+        "source": "InstagramOrders_Friday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 18,
+        "customer": "Costa",
+        "kind": "cancel",
+        "product": null,
+        "quantity": null,
+        "pickup": "2026-11-29",
+        "received": "2026-11-27",
+        "body": "Name: Costa\nOrder: Cancel\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Friday.html",
+        "status": "accepted",
+        "reason": "Cancellation is within the notice period.",
+        "order_id": 122,
+        "fetched": 1
+      },
+      {
+        "id": 19,
+        "customer": "Zhou",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-29",
+        "received": "2026-11-27",
+        "body": "Name: Zhou\nOrder: 4 Dozen Cupcakes\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Friday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 3 h left after acceptance.",
+        "order_id": 123,
+        "fetched": 1
+      },
+      {
+        "id": 20,
+        "customer": "Gupta",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-30",
+        "received": "2026-11-27",
+        "body": "Name: Gupta\nOrder: 1 Cake\nPickup Date: Mon Nov 30",
+        "source": "InstagramOrders_Friday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 6 h left after acceptance.",
+        "order_id": 124,
+        "fetched": 1
+      },
+      {
+        "id": 21,
+        "customer": "Lee",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-30",
+        "received": "2026-11-28",
+        "body": "Name: Lee\nOrder: 4 Dozen Cupcakes\nPickup Date: Mon Nov 30",
+        "source": "InstagramOrders_Saturday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 4 h left after acceptance.",
+        "order_id": 125,
+        "fetched": 1
+      },
+      {
+        "id": 22,
+        "customer": "Zhou",
+        "kind": "change",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "received": "2026-11-28",
+        "body": "Name: Zhou\nOrder: Change to 2 Dozen Cupcakes\nPickup Date: Sun Nov 29",
+        "source": "InstagramOrders_Saturday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 23,
+        "customer": "Ito",
+        "kind": "new",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-12-01",
+        "received": "2026-11-28",
+        "body": "Name: Ito\nOrder: 1 Cake\nPickup Date: Tue Dec 1",
+        "source": "InstagramOrders_Saturday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 6 h left after acceptance.",
+        "order_id": 126,
+        "fetched": 1
+      },
+      {
+        "id": 24,
+        "customer": "Lee",
+        "kind": "cancel",
+        "product": null,
+        "quantity": null,
+        "pickup": "2026-11-30",
+        "received": "2026-11-29",
+        "body": "Name: Lee\nOrder: Cancel\nPickup Date: Mon Nov 30",
+        "source": "InstagramOrders_Sunday.html",
+        "status": "pending",
+        "reason": "",
+        "order_id": null,
+        "fetched": 1
+      },
+      {
+        "id": 25,
+        "customer": "Nair",
+        "kind": "new",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-12-01",
+        "received": "2026-11-29",
+        "body": "Name: Nair\nOrder: 6 Dozen Cupcakes\nPickup Date: Tue Dec 1",
+        "source": "InstagramOrders_Sunday.html",
+        "status": "accepted",
+        "reason": "Within notice and capacity. 3 h left after acceptance.",
+        "order_id": 127,
+        "fetched": 1
+      }
+    ],
+    "orders": [
+      {
+        "id": 101,
+        "customer": "Kim",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-23",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 102,
+        "customer": "Ross",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-23",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 103,
+        "customer": "Ali",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-24",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 104,
+        "customer": "Diaz",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-24",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 105,
+        "customer": "Fox",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-25",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 114,
+        "customer": "Jasmine",
+        "product": "cupcakes",
+        "quantity": 3,
+        "pickup": "2026-11-25",
+        "status": "collected",
+        "source": "InstagramOrders_Monday.html"
+      },
+      {
+        "id": 106,
+        "customer": "Ng",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-26",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 107,
+        "customer": "Brown",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-26",
+        "status": "cancelled",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 108,
+        "customer": "Silva",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-26",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 116,
+        "customer": "Reyes",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-26",
+        "status": "collected",
+        "source": "InstagramOrders_Tuesday.html"
+      },
+      {
+        "id": 109,
+        "customer": "Wong",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 110,
+        "customer": "Chen",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 115,
+        "customer": "Patel",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "InstagramOrders_Monday.html"
+      },
+      {
+        "id": 119,
+        "customer": "Lam",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-27",
+        "status": "collected",
+        "source": "InstagramOrders_Wednesday.html"
+      },
+      {
+        "id": 111,
+        "customer": "Haddad",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 112,
+        "customer": "Moreau",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 117,
+        "customer": "Tan",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "InstagramOrders_Tuesday.html"
+      },
+      {
+        "id": 120,
+        "customer": "Singh",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "InstagramOrders_Wednesday.html"
+      },
+      {
+        "id": 121,
+        "customer": "Wilson",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-11-28",
+        "status": "collected",
+        "source": "InstagramOrders_Thursday.html"
+      },
+      {
+        "id": 113,
+        "customer": "Evans",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "status": "collected",
+        "source": "existing_orders.csv"
+      },
+      {
+        "id": 118,
+        "customer": "Kaur",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-29",
+        "status": "collected",
+        "source": "InstagramOrders_Wednesday.html"
+      },
+      {
+        "id": 122,
+        "customer": "Costa",
+        "product": "cupcakes",
+        "quantity": 2,
+        "pickup": "2026-11-29",
+        "status": "cancelled",
+        "source": "InstagramOrders_Thursday.html"
+      },
+      {
+        "id": 123,
+        "customer": "Zhou",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-29",
+        "status": "collected",
+        "source": "InstagramOrders_Friday.html"
+      },
+      {
+        "id": 124,
+        "customer": "Gupta",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-11-30",
+        "status": "accepted",
+        "source": "InstagramOrders_Friday.html"
+      },
+      {
+        "id": 125,
+        "customer": "Lee",
+        "product": "cupcakes",
+        "quantity": 4,
+        "pickup": "2026-11-30",
+        "status": "accepted",
+        "source": "InstagramOrders_Saturday.html"
+      },
+      {
+        "id": 126,
+        "customer": "Ito",
+        "product": "cake",
+        "quantity": 1,
+        "pickup": "2026-12-01",
+        "status": "accepted",
+        "source": "InstagramOrders_Saturday.html"
+      },
+      {
+        "id": 127,
+        "customer": "Nair",
+        "product": "cupcakes",
+        "quantity": 6,
+        "pickup": "2026-12-01",
+        "status": "accepted",
+        "source": "InstagramOrders_Sunday.html"
+      }
+    ],
+    "capacity_by_day": [
+      {
+        "day": "2026-11-23",
+        "hours": 4.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-24",
+        "hours": 5.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-25",
+        "hours": 3.5,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-26",
+        "hours": 8.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-27",
+        "hours": 8.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-28",
+        "hours": 12.0,
+        "capacity": 12.0
+      },
+      {
+        "day": "2026-11-29",
+        "hours": 5.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-11-30",
+        "hours": 4.0,
+        "capacity": 8.0
+      },
+      {
+        "day": "2026-12-01",
+        "hours": 5.0,
+        "capacity": 8.0
+      }
+    ]
+  }
+]
